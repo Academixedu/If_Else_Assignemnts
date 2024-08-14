@@ -1,4 +1,3 @@
-package If_Else_Assignemnts;
 public class DrivingLicense {
     public static void main(String[] args) {
         int age = 17;

@@ -1,5 +1,3 @@
-package If_Else_Assignemnts;
-
 public class ScoreCard {
   // Complete Your Code Here
   // Use Scanner
