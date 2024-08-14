@@ -1,3 +1,4 @@
+import java.util.*;
 public class ScoreCard{
 // Complete Your Code Here
   // Use Scanner
@@ -5,4 +6,26 @@ public class ScoreCard{
   // Use Operators >= && <=
   // ID Name Score 
   // Calculate Grade and Print Grade
+  public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    int id=sc.nextInt();
+    String name=sc.next();
+    int score=sc.nextInt();
+    if(score<20)
+      System.out.println("F");
+    else if( score >=20 && score <40)
+      System.out.println("D");
+    else if( score >=40 && score <50)
+      System.out.println("C");
+    else if(score >=50 && score <75)
+       System.out.println("B");
+    else if(score >=75 && score <99)
+      System.out.println("A");
+    else if(score == 99 || score ==100)
+      System.out.println("o");
+    else
+      System.out.println("No score founded");
+     
+      
+  }
 }
